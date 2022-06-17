@@ -1,0 +1,12 @@
+.card-students {
+    height: 18rem;
+}
+
+.student-row {
+    padding: 0.4rem;
+    margin: 5px;
+}
+
+.approved {
+    background-color: rgb(108, 209, 108);
+}

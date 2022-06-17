@@ -1,0 +1,11 @@
+<div class="main-content">
+    <div class="content">
+        <div class="actions">
+            <button class="btn" (click)="selectView('professor')">Ver lista de profesores</button>
+            <button class="btn" (click)="selectView('students')">Ver lista de estudiantes</button>
+        </div>
+        <app-professor-list *ngIf="selection == 'professor'"></app-professor-list>
+        <app-students-list *ngIf="selection == 'students'"></app-students-list>
+    </div>
+    
+</div>

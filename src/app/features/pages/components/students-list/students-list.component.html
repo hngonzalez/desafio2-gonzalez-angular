@@ -1,0 +1,9 @@
+<div class="content">
+    <div class="card-students">
+        <div class="student-row"
+            *ngFor="let student of studentsList"
+            [ngClass]="{approved: student.nota >= 6}">
+            {{student.apellido | uppercase}}, {{student.nombre}} - {{student.legajo}} NOTA: {{student.nota}} 
+        </div>
+    </div>
+</div>
